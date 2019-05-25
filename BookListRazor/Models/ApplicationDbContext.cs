@@ -12,5 +12,7 @@ namespace BookListRazor.Models
         {
 
         }
+
+        public DbSet<Book> Book { get; set; }
     }
 }
